@@ -129,7 +129,6 @@ img{
 #map{
   margin: 25px auto;
   content: "";
-  position:center;
   padding:400px;
   width:200px;
   height:25px;
@@ -144,46 +143,46 @@ img{
 @media (min-width: 29.25em) {
   nav{
     font-weight:normal;
-    width:auto;
+    width:100%;
   }
   nav a{
-    padding: auto;
+    padding: 0%;
   }
   html{
-    padding-left: auto;
-    padding-right: auto;
-    font-size:auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-size:100%;
   }
   header,
   footer{
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 0%;
+    padding-right: 0%;
   } 
   p{
-    font-size:auto;
+    font-size:100%;
   }
 }
 
 @media (min-width: 48em) {
   nav{
     font-weight:normal;
-    width:auto;
+    width:100%;
   }
   nav a{
-    padding: auto;
+    padding: 0%;
   }
   html{
-    padding-left: auto;
-    padding-right: auto;
-    font-size:auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-size:100%;
   }
   header,
   footer{
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 0%;
+    padding-right: 0%;
   } 
   p{
-    font-size:auto;
+    font-size:100%;
   }
 }
 
