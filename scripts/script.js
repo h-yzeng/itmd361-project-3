@@ -8,7 +8,7 @@ const citymap = {
 function initMap() {
   const iitLocation = {lat:41.83570098540951, lng: -87.62571134647413};
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 15,
+    zoom: 12,
     center: iitLocation,
     position: google.maps.ControlPosition.BOTTOM_CENTER
   });
