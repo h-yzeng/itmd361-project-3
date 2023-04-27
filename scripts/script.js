@@ -21,7 +21,7 @@ function initMap() {
     animation: google.maps.Animation.DROP,
     icon:{
       url: 'images/cleariitlogo.png',
-      scaledSize: new google.maps.Size(45,45),
+      scaledSize: new google.maps.Size(30,30),
     }
   });
 
